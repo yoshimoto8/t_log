@@ -1,0 +1,26 @@
+{
+  "name": "t_log",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "dev": "node server.js",
+    "build": "next build",
+    "start": "NODE_ENV=production node server.js"
+  },
+  "dependencies": {
+    "@emotion/core": "^10.0.4",
+    "@emotion/styled": "^10.0.4",
+    "babel-plugin-emotion": "^10.0.4",
+    "emotion": "^10.0.4",
+    "express": "^4.16.4",
+    "next": "^7.0.2",
+    "preact": "^8.4.2",
+    "preact-compat": "^3.18.4",
+    "preact-emotion": "^9.2.12"
+  },
+  "devDependencies": {
+    "@zeit/next-preact": "^0.1.0",
+    "recompose": "^0.30.0"
+  }
+}
