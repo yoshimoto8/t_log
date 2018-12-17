@@ -1,3 +1,7 @@
-const withPreact = require('@zeit/next-preact')
+const withMDX = require("@zeit/next-mdx")({
+  extension: /\.mdx?$/
+});
 
-module.exports = withPreact()
+module.exports = withMDX({
+  pageExtensions: ["js", "jsx", "md", "mdx"]
+});

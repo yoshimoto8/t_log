@@ -8,7 +8,4 @@ yarn dev
 ### stack
 
 - nextjs
-- preact
-- recompose
-- firebase
-- emotion
+- React
