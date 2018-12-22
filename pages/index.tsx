@@ -1,44 +1,23 @@
 import Link from "next/link";
+import { getMdxList } from "../utils/getMdxList";
 
-const postFileNames =
-  //@ts-ignore
-  preval`
-module.exports = require("fs").readdirSync("./posts")
-` || [];
-
-const posts = postFileNames.map((fileName: any) => {
-  const {
-    default: Component,
-    meta: { url },
-    meta: { title }
-  } = require("../posts/" + fileName);
-
-  return {
-    Component,
-    title,
-    url
-  };
-});
-
-const component1 = () => (
+const component = () => (
   <div>
-    {posts.map((post: any) => (
-      <Link as={`/detail/${post.url}`} href={`/post?titile=${post.url}`}>
-        <h2>{post.title}</h2>
-      </Link>
-    ))}
+    {getMdxList().map((post: any) => {
+      console.log(post);
+      return (
+        <div>
+          <Link
+            as={`/detail/${post.url}`}
+            href={{ pathname: "/post", query: { title: post.title } }}
+          >
+            <h2>{post.title}</h2>
+          </Link>
+          {post.Component}
+        </div>
+      );
+    })}
   </div>
 );
 
-// const component = () => (
-//   <div>
-//     {posts.map((post: any) => (
-//       <>
-//         <h2>{post.title}</h2>
-//         <post.Component />
-//       </>
-//     ))}
-//   </div>
-// );
-
-export default component1;
+export default component;
