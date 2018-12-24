@@ -5,5 +5,6 @@
   "prettier.proseWrap": "never",
   "[typescript]": {
     "editor.formatOnSave": false
-  }
+  },
+  "prettier.disableLanguages": ["vue", "markdown"]
 }
