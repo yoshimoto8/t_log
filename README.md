@@ -7,8 +7,7 @@ This is simple example uising Next.js with support for
 - TypeScript
 - React
 - MDX
-- Redux?
-- Emotion?
+- styled component
 
 ### How to setup?
 

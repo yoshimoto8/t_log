@@ -1,11 +1,5 @@
 import Link from "next/link";
 import { getMdxList } from "../utils/getMdxList";
-import styled from "styled-components";
-
-const Title = styled.h1`
-  color: red;
-  font-size: 50px;
-`;
 
 const component = () => (
   <div>
@@ -19,7 +13,6 @@ const component = () => (
             <h2>{post.title}</h2>
           </Link>
           {post.Component}
-          <Title>My page</Title>
         </div>
       );
     })}
