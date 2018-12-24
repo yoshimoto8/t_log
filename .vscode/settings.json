@@ -1,0 +1,9 @@
+{
+  "prettier.htmlWhitespaceSensitivity": "ignore",
+  "prettier.endOfLine": "crlf",
+  "prettier.jsxSingleQuote": true,
+  "prettier.proseWrap": "never",
+  "[typescript]": {
+    "editor.formatOnSave": false
+  }
+}

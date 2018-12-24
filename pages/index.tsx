@@ -4,7 +4,6 @@ import { getMdxList } from "../utils/getMdxList";
 const component = () => (
   <div>
     {getMdxList().map((post: any) => {
-      console.log(post);
       return (
         <div>
           <Link
