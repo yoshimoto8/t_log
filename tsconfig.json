@@ -6,7 +6,7 @@
     "lib": ["dom", "es2017"],
     "module": "esnext",
     "moduleResolution": "node",
-    "noEmit": true,
+    "noEmit": false,
     "jsxFactory": "jsx",
     "noUnusedLocals": true,
     "noUnusedParameters": true,
