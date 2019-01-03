@@ -21,7 +21,9 @@
     "url": "git+https://github.com/yoshimoto8/t_log.git"
   },
   "scripts": {
-    "test": "echo \"Error: run tests from root\" && exit 1"
+    "build": "tsc",
+    "lint": "prettier --list-different './src/**/*.{js,ts,tsx,scss,json}'",
+    "lint:format": "prettier --write './src/**/*.{js,ts,tsx,scss,json}'"
   },
   "bugs": {
     "url": "https://github.com/yoshimoto8/t_log/issues"

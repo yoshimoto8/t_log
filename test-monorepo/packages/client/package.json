@@ -1,11 +1,11 @@
 {
-  "name": "@t_log/next",
+  "name": "@t_log/client",
   "version": "0.0.0",
   "description": "> TODO: description",
   "author": "吉本光輝 <yoyoyo427435@gmail.com>",
   "homepage": "https://github.com/yoshimoto8/t_log#readme",
   "license": "ISC",
-  "main": "lib/next.js",
+  "main": "lib/client.js",
   "directories": {
     "lib": "lib",
     "test": "__tests__"

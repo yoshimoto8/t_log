@@ -1,11 +1,11 @@
-# `@t_log/next`
+# `@t_log/client`
 
 > TODO: description
 
 ## Usage
 
 ```
-const next = require('@t_log/next');
+const client = require('@t_log/client');
 
 // TODO: DEMONSTRATE API
 ```
