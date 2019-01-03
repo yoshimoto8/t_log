@@ -1,0 +1,14 @@
+{
+  "plugins": [
+    [
+      "styled-components",
+      {
+        "ssr": true,
+        "displayName": true,
+        "preprocess": false
+      }
+    ],
+    "preval"
+  ],
+  "presets": ["next/babel", "@zeit/next-typescript/babel"]
+}
