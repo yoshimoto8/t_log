@@ -1,5 +1,4 @@
-import express from 'express'
-// const express = require('express')
+import * as express from 'express'
 const next = require('next')
 
 const dev = process.env.NODE_ENV !== 'production'
