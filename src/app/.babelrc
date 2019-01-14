@@ -8,7 +8,6 @@
         "preprocess": false
       }
     ],
-    "preval"
   ],
   "presets": ["next/babel", "@zeit/next-typescript/babel"]
 }
