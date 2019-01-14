@@ -6,6 +6,7 @@ const withTypescript = require("@zeit/next-typescript");
 const ForkTsCheckerWebpackPlugin = require("fork-ts-checker-webpack-plugin");
 
 module.exports = withTypescript(
+  { distDir: '../../dist/functions/next' },
   withMDX({
     pageExtensions: ["js", "jsx", "md", "mdx"]
   }),
