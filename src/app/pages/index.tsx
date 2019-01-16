@@ -1,9 +1,5 @@
-import Link from "next/link";
+import Link from "next/link"
 
+const component = () => <div />
 
-const component = () => (
-  <div>
-  </div>
-);
-
-export default component;
+export default component
