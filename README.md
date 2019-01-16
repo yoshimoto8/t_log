@@ -11,9 +11,6 @@ This is simple example uising Next.js with support for
 - Styled Component
 - Semantic UI
 - Firebase
-
-next plan
-
 - react-redux
 - redux-thunk
 
